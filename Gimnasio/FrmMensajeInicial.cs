@@ -19,10 +19,17 @@ namespace Gimnasio
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            ProcessStartInfo sInfo = new ProcessStartInfo("http://hdeleon.net/software-para-gimnasio-hdeleon-version-1-9-codigo-fuente-c-net/");
-            Process.Start(sInfo);
-
             this.Close();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
